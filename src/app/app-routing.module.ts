@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
+import { ComotanmuchachoComponent } from './componentes/comotanmuchacho/comotanmuchacho.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,11 @@ const routes: Routes = [
   {
     path:"nosotros",
     component:NosotrosComponent
-  }
+  },
+  {
+    path:"Como",
+    component:ComotanmuchachoComponent
+  },
 ];
 
 @NgModule({
